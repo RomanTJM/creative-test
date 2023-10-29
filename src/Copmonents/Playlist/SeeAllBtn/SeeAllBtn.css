@@ -1,0 +1,25 @@
+.see-all {}
+
+.see-all-btn {
+    font-family: "PT-Root-UI_VF";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: initial;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+}
+
+.see-all-btn:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all .5s ease;
+}
+
+.see-all-btn::after {
+    content: url(../../Assets/Icons/ArrowRight.svg);
+    width: 6px;
+    height: 9px;
+    padding-left: 6px;
+}

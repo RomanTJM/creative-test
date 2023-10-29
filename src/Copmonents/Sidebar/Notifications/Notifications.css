@@ -1,0 +1,24 @@
+.notifications {
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    border: 1px solid #010101;
+    border-radius: 50%;
+    background-color: #FFFFFF1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 14px;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    background-color: #FF0000;
+    border: 1px solid #010101;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

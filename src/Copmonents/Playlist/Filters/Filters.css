@@ -1,0 +1,30 @@
+.filters {
+    display: flex;
+    justify-content: end;
+    margin-right: 105px;
+}
+
+.filters-btn {
+    font-family: "PT-Root-UI_VF";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;  
+    border: none;
+    background: inherit;
+    padding: 12px;
+}
+
+.filters-btn:hover { 
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
+    transition: all .5s ease;
+}
+
+.filters-btn:focus {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
+}

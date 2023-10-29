@@ -1,0 +1,27 @@
+.academy {
+
+}
+
+.academy-btn {
+    font-family: "PT-Root-UI_VF";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+    background: inherit;
+    cursor: pointer;
+    border: none;
+    margin-left: -19px;
+}
+
+.academy-btn:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all .5s ease;
+}
+
+.academy-btn::before {
+    content: url(../../Assets/Icons/ArrowLeft.svg);
+    width: 7px;
+    height: 12px;
+    padding-right: 22px;
+}

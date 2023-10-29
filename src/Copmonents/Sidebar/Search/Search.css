@@ -1,0 +1,45 @@
+.search {
+    display: inline-block;
+    position: relative;
+    background-color: inherit;
+    margin-bottom: 22px;
+}
+
+.search::after {
+    content: url(../../Assets/Icons/SearchIcon.svg);
+    position: absolute;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+    left: 90px;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.search-input {
+    position: relative;
+    background-color: inherit;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 250px;
+    height: 50px;
+}
+
+.search:focus-within::after {
+    display: none;
+    transition: 0.5s;
+}
+
+.search-input:focus {
+    transition: 0.5s;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "PT-Root-UI_VF";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}

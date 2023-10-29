@@ -1,0 +1,50 @@
+@font-face {
+  src: url("./Copmonents/Assets/fonts/PT-Root-UI-master/Fonts/PT-Root-UI_VF/PT-Root-UI_VF.ttf");
+  font-family: "PT-Root-UI_VF";
+}
+
+@font-face {
+  src: url("./Copmonents/Assets/fonts/random-grotesque-1/RG-StandardBold.ttf");
+  font-family: "RG-StandardBold";
+}
+
+.App {
+  /* background: rgba(0, 0, 0, 1);
+  display: grid;
+  grid-template-columns: 20% 80%; */
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

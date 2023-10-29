@@ -1,0 +1,110 @@
+.sidebar-list {}
+
+.sidebar-list-title {
+    font-family: "RG-StandardBold";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+}
+
+
+.sidebar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.sidebar-list-btn {
+    font-family: "PT-Root-UI_VF";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}
+
+.sidebar-list-btn:hover {
+    transition: all .5s ease;
+    color: rgba(77, 235, 50, 1);
+    font-weight: 500;
+}
+
+.icon-home::before {
+    content: url(../../Assets/Icons/HomeIcon.svg);
+    padding-right: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-watch::before {
+    content: url(../../Assets/Icons/WatchIcon.svg);
+    padding-right: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-com::before {
+    content: url(../../Assets/Icons/CommunityIcon.svg);
+    padding-right: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-help::before {
+    content: url(../../Assets/Icons/HelpIcon.svg);
+    padding-right: 13px;
+    width: 20px;
+    height: 20px;
+}
+
+.watch-subtext {
+    width: 24px;
+height: 24px;
+border-radius: 7px;
+background-color: rgba(239, 123, 60, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "PT-Root-UI_VF";
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+color: rgba(255, 255, 255, 1);
+}
+
+.community-photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.position {
+    position: absolute;
+    right: 36px;
+}
+
+.position2 {
+    position: absolute;
+    right: 18px;
+}
+
+.position3 {
+    position: absolute;
+    right: 0px;
+}
+
+.rectangle-green {
+    margin-bottom: 405px;
+}

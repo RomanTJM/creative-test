@@ -1,0 +1,9 @@
+.sidebar {
+    padding: 16px 19px 0 20px;
+}
+
+.sidebar-up {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 22px;
+}
