@@ -1,28 +1,5 @@
 .card-list {
-    /* display: flex;
-    gap: 12px; */
-    /* background: linear-gradient(180deg,  rgba(124, 43, 30, 1) 0%, 
-    rgba(0, 0, 0, 0) 100%); */
-}
-
-/* .slider {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(182.23deg, #EF7E3C 3.76%, #F5B048 60.76%, #F7C64D 85.52%);
-position: absolute;
-top: 0;
-left: 0;
-z-index: 111;
-} */
-
-.slide-none {
-    display: none;
-    background: rgba(255, 255, 255, 1);
-}
-
-.active {
-    display: block;
-    transition: all .5s ease;
+    display: flex;
 }
 
 .card-item {

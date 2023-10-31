@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './ImageSlider.css';
 
-export const ImageSlider = ( { id, src, title } ) => {
+export const ImageSlider = ( { id, src } ) => {
     return (
-        <div>
+        <div className='flex'>
             <img
                 key={id}
                 src={src}

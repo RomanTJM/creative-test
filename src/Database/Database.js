@@ -14,17 +14,14 @@ export const cardData = [
             {
               id: 101,
               src: Slide_1,
-              alt: 'Природа 1',
             },
             {
                 id: 102,
-                src: Slide_1,
-                alt: 'Природа 1',
+                src: CardImg_2,
               },
               {
                 id: 103,
-                src: Slide_1,
-                alt: 'Природа 1',
+                src: CardImg_3,
               },
         ],
         slide_title: "Introduction"
@@ -38,17 +35,14 @@ export const cardData = [
             {
               id: 201,
               src: CardImg_2,
-              alt: 'Природа 1',
             },
             {
                 id: 202,
                 src: Slide_1,
-                alt: 'Природа 1',
               },
               {
                 id: 203,
                 src: Slide_1,
-                alt: 'Природа 1',
               },
         ],
         slide_title: "Introduction"
@@ -62,17 +56,14 @@ export const cardData = [
             {
               id: 301,
               src: CardImg_3,
-              alt: 'Природа 1',
             },
             {
                 id: 302,
                 src: Slide_1,
-                alt: 'Природа 1',
               },
               {
                 id: 303,
                 src: Slide_1,
-                alt: 'Природа 1',
               },
         ],
         slide_title: "Introduction"
@@ -86,17 +77,14 @@ export const cardData = [
             {
               id: 401,
               src: CardImg_4,
-              alt: 'Природа 1',
             },
             {
                 id: 402,
                 src: Slide_1,
-                alt: 'Природа 1',
               },
               {
                 id: 403,
                 src: Slide_1,
-                alt: 'Природа 1',
               },
         ],
         slide_title: "Introduction"

@@ -1,17 +1,15 @@
 import React from 'react';
 import './SliderBtn.css';
-import {cardData } from '../../../Database/Database';
 
-
-export const SliderBtn = ({ activeSleder, setActiveSleder }) => {
+export const SliderBtn = ({ activeSleder, setActiveSleder, slide_img }) => {
 
     const changeSlide = (direction = 1) => {
         let slideNumber = 0;
 
         if (activeSleder + direction < 0) {
-            slideNumber = cardData.length - 1;
+            slideNumber = slide_img.length - 1;
         } else {
-            slideNumber = (activeSleder + direction) % cardData.length;
+            slideNumber = (activeSleder + direction) % slide_img.length;
         }
 
         setActiveSleder(slideNumber);
